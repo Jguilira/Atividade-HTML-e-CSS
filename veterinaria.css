@@ -122,7 +122,7 @@ header{
 .section-dois{
     display: flex;
     flex-direction: row;
-    height: 90vh;
+    height: 102vh;
     width: 100%;
 
 }
@@ -173,7 +173,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #FADD00;
-    height: 80vh;
+    height: 100vh;
 }
 .titulo-tres{
     display: flex;
