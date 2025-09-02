@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <title>Tags de Formulário</title>
+</head>
+<body>
+<section class="principal">
+    <form action="#" class="formulario">
+        <input type="text" placeholder="Nome" name="nome">
+        <input type="text" placeholder="Endereço" name="endereco">
+        <div class="form-grupo-cpf-data">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" placeholder="CPF" name="cpf" class="cpf">
+            <input type="date" name="data_nascimento" class="data_nascimento">
+        </div>
+        <div>
+            <select name="selecao" id="selecao">
+                <option value="" selected disabled>Selecione o tipo do usuário</option>
+                <option value="master">Master</option>
+                <option value="porteiro">Porteiro</option>
+            </select>
+        </div>
+        <div class="form-grupo-radio">
+            <input type="radio" name="opcao">
+            <p class="form-grupo-radio-text">Opcão 1</p>
+        </div>
+        <div class="form-grupo-checkbox">
+            <input class="form-grupo-checkbox-text" type="checkbox" name="termos">
+            <p class="form-grupo-checkbox-text">Concordo com os termos!</p>
+        </div>
+        <div class="form-grupo-checkbox">
+            <input class="form-grupo-checkbox-text" type="checkbox" name="termos-2">
+            <p class="form-grupo-checkbox-text">Receber email com novidades!</p>
+        </div>
+        <input type="submit" class="btn-enviar" value="Enviar">
+    </form>
+</section>
+</body>
+</html>

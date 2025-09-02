@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0%;
+    font-family: 'Inter';
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    background: #dec162;
+    background: linear-gradient(90deg, rgba(222, 193, 98, 1) 0%, rgba(250, 175, 0, 1) 0%);
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.nave-logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+}
+
+.company-logo{
+    width: 50%;
+    font-size: 20pt;
+    margin-left: 2%;
+    align-self: center;
+}
+.header-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+.link-superior{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    color: white;
+    text-decoration: white;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    height: 45%;
+    width: 20%;
+    justify-content: center;
+    
+}
+.pesquisa-barra{
+    background-color: white;
+    width: 70%;
+}
+.paragrafo-seach{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.section-um{
+    background-color: #FADD00;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.titulo-cachorro{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 35pt;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.paragrafo{
+    display: flex;
+    font-size: 20pt;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.botao-um{
+    text-decoration: none;
+    color: white;
+    width: 25%;
+    background-color: rgb(58, 136, 195);
+    padding: 1.2%;
+    border-radius: 15px;
+    font-size: 20pt;
+    font-weight: 600;
+    margin-left: 7%;
+    text-align: center;
+}
+.botao-dois{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    width: 25%;
+    background: #ffffff00;
+    border: 2px solid white;
+    padding: 1.2%;
+    border-radius: 15px;
+    font-size: 20pt;
+    font-weight: 525;
+    margin-left: 7%;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    text-align: center;
+}
+.imagem{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 50vh;
+    justify-content: center;
+    margin-top: 15vh;
+}
+.section-dois{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100%;
+
+}
+.titulo-dois{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-left: 5%;
+    font-size: 35pt;
+}
+.paragrafo-dois{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 20pt;
+}
+.botao-tres{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    width: 25%;
+    background: #FADD00;
+    border: 3px solid white;
+    padding: 1.2%;
+    border-radius: 15px;
+    font-size: 18pt;
+    font-weight: 525;
+    margin-left: 5%;
+    margin-top: 5%;
+    align-content: center;
+}
+
+.imagem-dois{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 60vh;
+    justify-content: center;
+    margin-top: 15vh;
+}
+.div-section-dois{
+    display: flex;
+    flex-direction: column;
+}
+.section-tres{
+    display: flex;
+    flex-direction: column;
+    background-color: #FADD00;
+    height: 80vh;
+}
+.titulo-tres{
+    display: flex;
+    flex-direction: column;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 5vh;
+    color: white;
+}
+.paragrafo-tres{
+    display: flex;
+    flex-direction: column;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 5vh;
+    color: white;
+}
+.imagem-tres{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.foto-veterinario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25%;
+    margin-top: 5vh;
+    border: 2px solid white;
+}
