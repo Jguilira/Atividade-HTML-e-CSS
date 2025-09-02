@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <section class="principal">
+        <h1 class="titulo-atvd">Formulário</h1>
+        <form action="#" class="formulario-input">
+            <label for="nome"><b>Nome</b></label>
+            <input type="text" name="nome" id="nome">
+            <label for="genero"><b>Gênero</b></label>
+            <div class="radio-masculino">
+                <input type="radio" name="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div class="radio-feminino">
+                <input type="radio" name="feminino">
+                <label for="feminino">feminino</label>
+            </div>
+            <label for="interesses"><b>Interesses</b></label>
+            <div class="checkbox-input">
+                <input type="checkbox" name="esportes" id="esportes">
+                <label for="esportes">Esportes</label>
+                <input type="checkbox" name="musica" id="musica">
+                <label for="musica">Música</label>
+                <input type="checkbox" name="viagem" id="viagem">
+                <label for="viagem">Viagem</label>
+            </div>
+            
+        <div class="selecao">
+            <label for="pais"><b>País</b></label>
+            <select name="pais" id="pais">
+                <option value="brasil">Brasil</option>
+                <option value="argentina">Argentina</option>
+                <option value="eua">Estados unidos</option>
+                <option value="cazaquistao">Cazaquistão</option>
+                <option value="siria">Síria</option>
+            </select>
+        </div>
+        <div class="button-enviar">
+            <input type="submit" value="Enviar" name="enviar" id="enviar">
+        </div>
+        </form>
+    </section>
+</body>
+</html>
